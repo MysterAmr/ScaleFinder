@@ -85,6 +85,6 @@ def FindScale(frames):
   
   return sorted(scale_dict.keys(), key=lambda x: x.size, reverse=True)[0].name
 
-print('The scale is', FindScale(frames))
 print('The notes you played were', notes)
+print('The scale is', FindScale(frames))
   
